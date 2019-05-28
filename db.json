@@ -1,38 +1,32 @@
 {
-  "api": {
-      "apply-loan": {
-		  "one-connect": {
-			  "e-ktp": {
-				   "result":{
-					  "cardInfo":{
-						 "province":"JAWA TIMUR",
-						 "city":"KABATEN KEDIRI ",
-						 "idNumber":"123456789090",
-						 "name":"SAY MY NAME",
-						 "birthPlaceBirthday":"KEDIRI,26-02-3924",
-						 "gender":"LAKI-LAKI",
-						 "bloodType":"-",
-						 "address":"JLRAYA-DSN PURWOKERTO",
-						 "rtrw":"002/003",
-						 "village":"PURWOKERTO",
-						 "district":"NGADILUWIH",
-						 "religion":"ISLAM",
-						 "maritalStatus":"KAWIN",
-						 "expiryDate":"26-02-2017"
-					  },
-					  "check":{
-						 "provinceChecked":1,
-						 "idChecked":1,
-						 "expiryDateChecked":0
-					  },
-					  "feature":{
-						 "idtype":-1000,
-						 "directionDetect":-1000
-					  }
-				   },
-				   "returnCode":0
-				}
-			}
-		}
+	"e-ktp": {
+	   "result":{
+		  "cardInfo":{
+			 "province":"JAWA TIMUR",
+			 "city":"KABATEN KEDIRI ",
+			 "idNumber":"123456789090",
+			 "name":"SAY MY NAME",
+			 "birthPlaceBirthday":"KEDIRI,26-02-3924",
+			 "gender":"LAKI-LAKI",
+			 "bloodType":"-",
+			 "address":"JLRAYA-DSN PURWOKERTO",
+			 "rtrw":"002/003",
+			 "village":"PURWOKERTO",
+			 "district":"NGADILUWIH",
+			 "religion":"ISLAM",
+			 "maritalStatus":"KAWIN",
+			 "expiryDate":"26-02-2017"
+		  },
+		  "check":{
+			 "provinceChecked":1,
+			 "idChecked":1,
+			 "expiryDateChecked":0
+		  },
+		  "feature":{
+			 "idtype":-1000,
+			 "directionDetect":-1000
+		  }
+	   },
+	   "returnCode":0
 	}
 }
